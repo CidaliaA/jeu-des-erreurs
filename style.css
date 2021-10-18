@@ -1,21 +1,35 @@
+
+.image-bloc{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+}
+.image-originale{
+    width: 48% ;
+    height: 48%;
+}
+#originale{
+    width: 100%;
+    height: auto;
+}
+
 .image-erreur{
     position: relative;
     width: 48%;
-    height: auto;
-
-
+    height: 48%;
+}
+#image-modif{
+    width: 100%;
 }
 #erreur-feuille{
     position: absolute;
-    top: 20%; 
-    left: 10%;
-    width: 48%;
+    top: 52%; 
+    left: 15%;
     height: auto;
+    opacity: 1; 
+
 }
-.image-bloc{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-}
+
+
 
 
