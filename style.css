@@ -1,0 +1,21 @@
+.image-erreur{
+    position: relative;
+    width: 48%;
+    height: auto;
+
+
+}
+#erreur-feuille{
+    position: absolute;
+    top: 20%; 
+    left: 10%;
+    width: 48%;
+    height: auto;
+}
+.image-bloc{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
